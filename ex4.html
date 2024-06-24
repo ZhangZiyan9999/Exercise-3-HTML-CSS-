@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex4.html</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .header {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .nav, .sidebar-left, .sidebar-right {
+            background-color: #f4f4f4;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #555;
+            color: white;
+        }
+        .container {
+            display: flex;
+            flex: 1;
+        }
+        .sidebar-left, .sidebar-right {
+            width: 200px;
+        }
+        .sidebar-left {
+            background-color: #f4f4f4;
+        }
+        .sidebar-right {
+            background-color: #f4f4f4;
+        }
+        .main-content {
+            flex: 1;
+            padding: 20px;
+            background-color: #e4e4e4;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>EX4</h1>
+    </div>
+    <div class="container">
+        <div class="sidebar-left">
+            <h3>Academic</h3>
+            <ul>
+                <li>
+                    <a href="https://www.google.com/scholar" target="_blank">Google Scholar</a>
+                </li>
+                <li>
+                    <a href="https://www.sciencedirect.com" target="_blank">ScienceDirect</a> 
+                </li>
+            </ul>
+            
+            <h3>Programming</h3>
+            <ul>
+                <li>
+                    <a href="https://www.github.com" target="_blank">GitHub</a> 
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com" target="_blank">W3Schools</a> 
+                </li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="nav">
+                <div>FAMILY</div>
+                <div>TEACHING</div>
+                <div>RESEARCH</div>
+                <div>STUDENTS</div>
+            </div>
+        </div>
+        <div class="sidebar-right">
+            <h3>Previous Exercises:</h3>
+            <ul>
+                <li>Exercise 1</li>
+                <li>Exercise 2</li>
+                <li>Exercise 3</li>
+                <li>Exercise 4</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <p>zhangziyan 20202251093
+        </p>
+        <p>ritsumeikan</p>
+    </div>
+</body>
+</html>
